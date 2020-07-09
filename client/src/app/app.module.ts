@@ -87,11 +87,6 @@ import { Stomp } from './stomp';
       provide: InjectableRxStompConfig,
       useValue: appRxStompConfig
     },
-  /*  {
-      provide: InjectableRxStompConfig,
-      useClass: Stomp,
-      deps: [SettingsService]
-    },*/
     {
       provide: RxStompService,
       useFactory: rxStompServiceFactory,
