@@ -34,7 +34,6 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatSortModule} from '@angular/material/sort';
 import { SettingsService } from './settings/settings.service';
-import { Stomp } from './stomp';
 
 
 
