@@ -21,7 +21,7 @@ If you are deploying for the first time, run this command in the **client** fold
 npm install
 ```
 
-After running previous command, you can start the running the Angular application with this command:
+After running previous command, you can start running the Angular application with this command:
 
 ```
 npm start
@@ -48,7 +48,7 @@ Make sure Maven is installed on your computer. After this, run following command
 mvn spring-boot:run
 ```
 
-This will create the scenes and settings directories in the server directory because of the previous command, unless you have replaced *user.dir* in the *parentDir* variable.
+This will create the scenes and settings directories in the **server** directory because of the previous command, unless you have replaced *user.dir* in the *parentDir* variable.
 
 
 #### Testing
@@ -62,7 +62,7 @@ To make sure the DMX data gets shown in the *Monitor* component of the Angular a
 brokerURL: 'ws://localhost:8080/stomp/websocket'
 ```
 
-Of course if you run everything on the Raspberry Pi, this has to be set to:
+In the special case of deploying the Angular application on your computer to read the DMX data coming from the Raspberry Pi, this has to be set to:
 
 ```
 brokerURL: 'ws://raspberrypi:8080/stomp/websocket'
